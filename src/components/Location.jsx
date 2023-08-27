@@ -35,8 +35,8 @@ const Location = () => {
         </video>
         <p>Heldwceihofjaliwjn</p> */}
 
-        {/* <ReactPlayer url="https://www.youtube.com/watch?v=ysz5S6PUM-U" /> */}
-        <ReactPlayer url="../assets/video.mp4" height="100%" controls={true} />
+        <ReactPlayer url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
+        {/* <ReactPlayer url="../assets/video.mp4" height="100%" controls={true} /> */}
       </div>
 
       {/* <div class="w-full sm:w-1/2 md:w-1/3 h-0 relative">
