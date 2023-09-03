@@ -2,8 +2,6 @@ import React from 'react';
 
 import Location from '../components/Location';
 import HorizontalLine from '../components/HorizontalLine';
-import SectionOverview from '../components/SectionOverview';
-import { Link } from 'react-router-dom';
 import CustomButton from '../components/CustomButton';
 
 const Landing = () => {
@@ -18,7 +16,7 @@ const Landing = () => {
       <CustomButton />
       <HorizontalLine styles={{ marginTop: '40px' }} />
 
-      <section className="secondRow">
+      <section className="secondRow" style={{ fontSize: 14, fontWeight: '300' }}>
         <h3 className="secondRowdescriptionContainer">
           Uncover the secrets of the second beauty of a treasure called resin art. Learn the step by step process, tips and
           techniques to start your resin art journey today

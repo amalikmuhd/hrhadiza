@@ -38,19 +38,21 @@ body {
   width: 80%;
   display: flex;
   // justify-content: center;
+  // align-items: start;
+  // justify-content: flex-start;
   margin: auto;
 
   .leftRow {
     width: 50%;
-    margin: auto;
+    // margin: auto;
     .leftRowTitle {
       text-align: center;
       color: #c99e60;
-      font-size: 45px;
+      font-size: 50px;
       font-family: 'Dancing Script', poppins;
     }
     .leftRowSubtitle {
-      font-size: 40px;
+      font-size: 35px;
       color: #ffffff;
       font-family: 'Poppins', poppins;
       font-weight: 800;
