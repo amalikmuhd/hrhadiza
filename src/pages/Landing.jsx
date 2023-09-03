@@ -7,7 +7,7 @@ import SectionOverview from '../components/SectionOverview';
 
 const Landing = () => {
   return (
-    <div style={{ backgroundColor: '#16213e' }}>
+    <div>
       <div className="bannerContainer">
         <div className="banner">Join This Resin Art Webinar!</div>
       </div>
