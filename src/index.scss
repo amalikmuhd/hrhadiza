@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@300;400;500;600;700;800&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #16213e;
+  // '#16213e'
+  font-family: poppins;
+}
+
+.bannerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+
+  @media screen and (max-width: 700px) {
+    margin-bottom: 0px;
+  }
+}
+
+.banner {
+  width: 80%;
+  background-color: #c99e60;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  @media screen and (max-width: 700px) {
+    width: 96%;
+  }
+}
+
+.firstRow {
+  width: 80%;
+  display: flex;
+  // justify-content: center;
+  margin: auto;
+
+  .leftRow {
+    width: 50%;
+    margin: auto;
+    .leftRowTitle {
+      text-align: center;
+      color: #c99e60;
+      font-size: 45px;
+      font-family: 'Dancing Script', poppins;
+    }
+    .leftRowSubtitle {
+      font-size: 40px;
+      color: #ffffff;
+      font-family: 'Poppins', poppins;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+  .rightRow {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .leftRow {
+      text-align: center;
+      width: 90%;
+      margin: auto;
+
+      .leftRowTitle {
+        color: #c99e60;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .leftRowSubtitle {
+        font-size: 26px;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+    }
+    .rightRow {
+      width: 100%;
+      .video {
+        @media screen and (max-width: 1000px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.secondRow {
+  margin-top: 40px;
+  text-align: center;
+
+  .secondRowdescriptionContainer {
+    color: white;
+    width: 60%;
+    margin: auto;
+
+    @media screen and (max-width: 1000px) {
+      width: 90%;
+      margin: auto;
+    }
+  }
+}
+
+// Components
+.buttonContainer {
+  text-align: center;
+  margin: auto;
+  background-color: #c99e60;
+  border-radius: 10px;
+  width: 220px;
+  padding: 16px;
+  margin-bottom: 10px;
+  .title {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+
+  &:hover {
+    background-color: #c99d60a5;
+  }
+}
+
+.horizontalLine {
+  height: 2px;
+  width: 80%;
+  margin: auto;
+  background-color: #c99e60;
+  margin: 10px auto;
+
+  @media screen and (max-width: 1000px) {
+    width: 95%;
+  }
+}
