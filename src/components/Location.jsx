@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 
-import videoo from '../assets/video.mp4';
+import videoo from '../assets/firstVideo.mp4';
 
 const Location = () => {
   return (

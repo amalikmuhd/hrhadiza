@@ -3,6 +3,7 @@ import React from 'react';
 import Location from '../components/Location';
 import HorizontalLine from '../components/HorizontalLine';
 import CustomButton from '../components/CustomButton';
+import SectionOverview from '../components/SectionOverview';
 
 const Landing = () => {
   return (
@@ -32,7 +33,8 @@ const Landing = () => {
       <section className="secondRow">
         <h3 className="secondRowdescriptionContainer">Here are the results alot of people have gotten from this Training</h3>
       </section>
-      {/* <SectionOverview /> */}
+      <SectionOverview />
+      <></>
 
       <section className="secondRow">
         <h3 className="secondRowdescriptionContainer" style={{ fontSize: 16 }}>
