@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 
-import videoo from '../assets/firstVideo.mp4';
-
 const Location = () => {
   return (
     <section className="firstRow">
@@ -14,7 +12,7 @@ const Location = () => {
         <iframe
           width="560"
           height="315"
-          src={videoo}
+          src={'https://youtu.be/17DMn8SI-rE?si=4JjCvpUy1n0Iw23d'}
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
