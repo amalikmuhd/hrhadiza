@@ -4,7 +4,7 @@ const CustomButton = () => {
   return (
     <div className="buttonContainer">
       <Link to={'https://wa.link/l046yq'} className="title" target="_blank">
-        Click here to proccess
+        Click here to access
       </Link>
     </div>
   );

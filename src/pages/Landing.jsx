@@ -19,7 +19,7 @@ const Landing = () => {
 
       <section className="secondRow" style={{ fontSize: 14, fontWeight: '300' }}>
         <h3 className="secondRowdescriptionContainer">
-          Uncover the secrets of the second beauty of a treasure called resin art. Learn the step by step process, tips and
+          Uncover the secrets of the serene beauty of a treasure called resin art. Learn the step by step process, tips and
           techniques to start your resin art journey today
         </h3>
       </section>
