@@ -6,7 +6,7 @@ const Location = () => {
   return (
     <section className="firstRow">
       <div className="leftRow">
-        <p className="leftRowTitle">let your creativity run wild and explore</p>
+        <p className="leftRowTitle">Let your creativity run wild and explore</p>
         <p className="leftRowSubtitle">Expore the mesmerizing world of resin from the comfort of your home.</p>
       </div>
 
